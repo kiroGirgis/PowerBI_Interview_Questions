@@ -1,1 +1,51 @@
+Advanced Power BI Interview Questions
+For professionals aiming to become Power BI experts, mastering advanced functionalities is critical. The Advanced Power BI Interview Questions section dives into high-level topics such as composite models, incremental refresh, calculation groups, advanced DAX optimization, real-time data streaming, and integration with Azure services.
+These questions are designed for experienced Power BI users who want to showcase their expertise in enterprise-level data solutions, performance optimization, and automation techniques. Employers seeking Power BI specialists often look for proficiency in handling big data, implementing security measures, and designing scalable analytics solutions.
+By mastering these advanced Power BI concepts, you will be well-equipped for senior data analyst, BI developer, and data engineer roles, ensuring you can tackle complex business intelligence challenges with confidence.
+Author: Kirolos Girgis
 
+
+1- What are Composite Models in Power BI?
+ANSWER: 
+Composite Models allow combining Import Mode and DirectQuery in the same dataset, providing flexibility in handling large data.
+2- How do you implement dynamic Row-Level Security (RLS)?
+ANSWER:
+Dynamic RLS is implemented using USERPRINCIPALNAME() or USERNAME() in DAX and filtering data dynamically based on the logged-in user.
+3- How do you use Calculation Groups in Power BI?
+ANSWER:
+Calculation Groups help create reusable measures and time intelligence calculations, reducing duplication in DAX code.
+4- What is Incremental Refresh in Power BI?
+ANSWER:
+Incremental Refresh loads only new or updated data, reducing the refresh time for large datasets.
+5- How does Power BI handle Big Data?
+ANSWER:
+Power BI manages big data using:
+Aggregations
+DirectQuery mode
+Dataflows
+Azure Synapse integration
+Composite models
+6- What is the difference between a Power BI Dataflow and a Dataset?
+ANSWER:
+Dataflow: A reusable ETL pipeline stored in the Power BI Service.
+Dataset: A processed data model that can be used for reporting.
+
+7- How can you use Python or R in Power BI?
+ANSWER:
+Power BI allows scripting with Python or R for data transformation, visualization, and advanced analytics.
+
+8- What is the use of Tabular Editor in Power BI?
+ANSWER:
+Tabular Editor is an external tool that allows advanced model editing, including managing measures, calculation groups, and metadata without opening Power BI Desktop.
+
+9- How do you optimize DAX queries?
+ANSWER:
+Use SUMX instead of SUM for row-based calculations.
+Reduce use of FILTER inside measures.
+Use variables (VAR) for better performance.
+Avoid CALCULATE unless necessary.
+Use indexes and keys for optimized joins.
+
+10- How can you enable real-time data streaming in Power BI?
+ANSWER:
+Real-time streaming can be enabled using Azure Stream Analytics, Power BI REST API, or Push Datasets.
