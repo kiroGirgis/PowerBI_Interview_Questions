@@ -1,1 +1,66 @@
+Easy Power BI Interview Questions
+Microsoft Power BI is a powerful business intelligence tool used for data visualization, reporting, and interactive dashboards.
+Whether you are preparing for an entry-level role or looking to build a strong foundation in Power BI, this section is the perfect place to start.
+The Easy Power BI Interview Questions cover the fundamental concepts, including data connections, dashboards, reports, DAX basics, and Power Query transformations.
+Understanding these core functionalities will help you confidently navigate Power BI and perform essential tasks such as data import, visualization creation, and report sharing.
+Employers often assess these basic skills to ensure candidates can work efficiently with Power BI, making this knowledge crucial for business analysts, data professionals, and aspiring Power BI developers.
+Author: Kirolos Girgis
+
+
+1- What is Power BI?
+
+ANSWER:
+Power BI is a business intelligence tool by Microsoft that enables users to visualize data, create reports, and share insights through interactive dashboards
+
+2- What are the main components of Power BI?
+
+ANSWER:
+Power BI Desktop (for report creation)
+Power BI Service (cloud-based service for sharing and collaboration)
+Power BI Mobile (for accessing reports on mobile devices)
+Power BI Gateway (for connecting to on-premises data sources)
+Power BI Report Server (for on-premises report hosting)
+
+3- What data sources can Power BI connect to?
+
+ANSWER:
+Power BI can connect to various data sources, including EXCEL, SQL, Azure, Sharepoint, Google Analytics Salesforce, and many others.
+
+4- What is a Power BI Dashboard?
+
+ANSWER:
+A Power BI Dashboard is a single page, interactive visualization that provides a summary of key metrics from multiple reports
+
+5- What is the difference between Power BI Report and Power BI Dashboards?
+
+ANSWER:
+Reports are multi page detailed and interactive analtysis of the data while Dashboards are a single page summary that provides a high level insights from reports
+
+6- What is DAX in Power BI?
+
+ANSWER:
+DAX (Data Analysis Expressions) is a formula language used in Power BI for creating custom calculations and aggregations in data models
+
+7- What is Power Query?
+
+ANSWER:
+Power query us a data transformation tool in Power BI that helps in extracting, transforming, and loading (ETL) data
+
+8- What are Measures and Calculated Columns in Power BI?
+
+ANSWER:
+measures are used for a dynamic calculation in reports and work with aggregations while calculated columns are created at the row level in tables and stored in the data model
+
+9- What is the role of Relationships in Power BI?
+
+ANSWER:
+Relationships define connections between different tables in Power BI's Data model, enabling data analysis across multiple sources
+
+10- How can you refresh data in Power BI?
+
+ANSWER:
+Data can be refreshed manually in Power BI Desktop, scheduled in Power BI service, or automatically using Power BI gateway?
+
+
+
 
