@@ -1,1 +1,59 @@
+Intermediate Power BI Interview Questions
+As organizations continue to rely on data-driven decision-making, a deeper understanding of Power BI’s features becomes essential. The Intermediate Power BI Interview Questions focus on more advanced concepts such as DAX functions, Row-Level Security (RLS), optimization techniques, DirectQuery vs. Import Mode, and Power BI Service features.
+This section is designed for candidates who are familiar with Power BI’s basic operations and are looking to enhance their skills in data modeling, performance tuning, and report sharing. Employers typically expect professionals at this level to demonstrate their ability to handle larger datasets, create complex calculations, and optimize report performance.
+Mastering these concepts will prepare you for roles that require deeper analytical capabilities and efficient Power BI solutions.
+Author: Kirolos Girgis
 
+
+1- What is Row-Level Security (RLS) in Power BI?
+ANSWER:
+RLS is a feature in Power BI that restricts data access based on user roles. It is implemented using DAX filters in Power BI Desktop and applied in Power BI Service.
+
+2- What is the difference between Import Mode and DirectQuery?
+ANSWER:
+Import Mode: Data is stored in Power BI and refreshed periodically.
+DirectQuery: Data remains in the source and is queried live when users interact with the report.
+
+3- How can you optimize Power BI performance?
+ANSWER:
+Use aggregations to reduce data size.
+Optimize DAX formulas.
+Remove unnecessary columns.
+Use DirectQuery for large datasets.
+Enable query folding for optimized queries.
+
+4- What are Power BI Templates?
+ANSWER:
+Power BI Templates (.PBIT files) allow users to save report structure and queries without data, enabling reuse with different datasets.
+
+5- What is a Common Data Model (CDM) in Power BI?
+ANSWER:
+CDM is a standardized schema for organizing and integrating data from various sources, ensuring consistency in data usage.
+
+6- How do you use parameters in Power BI?
+ANSWER:
+Parameters allow users to input values dynamically, helping with filtering and customization in queries and reports.
+
+7- What is a KPI in Power BI, and how do you create one?
+ANSWER:
+A Key Performance Indicator (KPI) is a visual representation of performance. It is created using KPI visuals, 
+where the Target and Actual Value are compared.
+
+8- How can you share Power BI reports securely?
+ANSWER:
+Reports can be shared using Power BI Service via:
+Workspaces
+Apps
+Embedding reports
+Exporting as PDF or PPT
+Publishing to Power BI Report Server
+
+9- What is the difference between Power BI Free, Pro, and Premium?
+ANSWER:
+Free: Limited to individual use, no sharing.
+Pro: Allows sharing, collaboration, and advanced features.
+Premium: Dedicated capacity, better performance, and large-scale data model support.
+
+10- What is Power Automate, and how does it integrate with Power BI?
+ANSWER:
+Power Automate is a Microsoft tool for workflow automation. It integrates with Power BI to automate data refreshes, notifications, and report delivery.
